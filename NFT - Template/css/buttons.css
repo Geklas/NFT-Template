@@ -1,0 +1,122 @@
+/* -- Buttons & Links Style will be here -- */
+/* -- Navigation Links -- */
+.nav-link {
+    margin: 0;
+    padding: 10px 20px;
+    /* -- Color -- */
+    color: white;
+    /* -- Font -- */
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    /* -- Ohter -- */
+    transition: 1.3s;
+}
+/* -- :Hover -- */
+.nav-link:hover {
+    color: orange;
+    /* -- Ohter -- */
+    transition: 1.3s;
+}
+/* -- Navigation Button -- */
+.nav-btn {
+    background: none;
+    border: none;
+    /* -- Other -- */
+    cursor: pointer;
+}
+/* ----- Description Link ----- */
+.desc-link {
+    margin: 0;
+    padding: 10px 15px;
+    /* -- Block Size -- */
+    width: 28%;
+    /* -- Color -- */
+    color: white;
+    /* -- Font -- */
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    /* -- Border -- */
+    border: 1px solid white;
+    border-radius: 40px;
+    /* -- Other -- */
+    transition: 1.3s;
+}
+/* -- :Hover -- */
+.desc-link:hover {
+    /* -- Color -- */
+    color: orange;
+    /* -- Border -- */
+    border: 1px solid orange;
+    border-radius: 40px;
+    /* -- Other -- */
+    transition: 1.3s;
+
+}
+/* ----- News Link ----- */
+.new-link {
+    margin: 0;
+    padding: 10px 0px;
+    /* -- Color -- */
+    color: white;
+    /* -- Font -- */
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    /* -- Other -- */
+    transition: 1.3s;
+}
+/* -- :Hover -- */
+.new-link:hover {
+    /* -- Color -- */
+    color: orange;
+    /* -- Other -- */
+    transition: 1.3s;
+}
+
+/* ----- Responsive for Notebooks & Laptops ----- */
+/* ----- Notebooks: 1366x768 ----- */
+@media (max-width: 1366px) {
+    /* -- Navigation Links -- */
+    .nav-link {
+        margin: 0;
+        padding: 5px 10px;
+        /* -- Color -- */
+        color: white;
+        /* -- Font -- */
+        font-size: 24px;
+        letter-spacing: 1.5px;
+    }
+    /* ----- Description Link ----- */
+    .desc-link {
+        margin: 0;
+        padding: 10px 15px;
+        /* -- Block Size -- */
+        width: 32%;
+        /* -- Color -- */
+        color: white;
+        /* -- Font -- */
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 1.4px;
+        /* -- Border -- */
+        border: 1px solid white;
+        border-radius: 40px;
+        /* -- Other -- */
+        transition: 1.3s;
+    }
+    /* ----- News Link ----- */
+    .new-link {
+        margin: 0;
+        padding: 10px 0px;
+        /* -- Color -- */
+        color: white;
+        /* -- Font -- */
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 1.4px;
+        /* -- Other -- */
+        transition: 1.3s;
+    }
+
+}

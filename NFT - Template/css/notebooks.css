@@ -1,0 +1,79 @@
+@media (max-width: 1366px) {
+    /* ----- Main Basic content container ----- */
+    /* -- Main Basic -- */
+    .main-basic {
+        margin: 0;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 60%;
+    }
+    /* -- Content Image container -- */
+    .content-image {
+        margin: 0;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 40%;
+        /* -- */
+    }
+    .content-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* -- Description Items container -- */
+    /* -- Title -- */
+    .desc-title {
+        margin: 0;
+        padding: 0;
+        /* -- Font -- */
+        font-size: 20px;
+        color: orange;
+    }
+    /* -- Text -- */
+    .desc-text {
+        margin: 20px 0px;
+        padding: 0;
+        /* -- Font -- */
+        font-size: 13px;
+    }
+    /* ----- Main News content container ----- */
+    /* -- Main News -- */
+    .main-news {
+        margin: 0;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 40%;
+    }
+    /* -- News container -- */
+    .news {
+        margin: 0 auto;
+        padding: 20px;
+        /* -- Block Size -- */
+        width: 80%;
+        /* -- Color -- */
+        background-color: #333333b6;
+        /* -- Other -- */
+        border: 1px solid #333333b6;
+        border-radius: 20px;
+        overflow: hidden;
+        /* -- Position -- */
+        position: sticky;
+    }
+    /* -- New container -- */
+    .new:not(:last-child) {
+        border-bottom: 2px solid white;
+    }
+    .new {
+        margin: 30px 0px; 
+        padding: 0px;
+    }
+    /* -- New Text -- */
+    .new-text {
+        margin: 0;
+        padding: 20px 0px;
+        /* -- Font -- */
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1.3px;
+    }
+}

@@ -1,0 +1,90 @@
+/* ----- Header Style container ----- */
+/* -- Header container -- */
+.header {
+    margin: 0;
+    padding: 0;
+    /* -- Block Size -- */
+    width: 100%;
+    height: 20%;
+    /* -- Font -- */
+    font-size: 30px;
+    font-weight: 600;
+}
+/* -- Header's bounding container -- */
+.header-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    /* -- Block Size -- */
+    width: 75%;
+    height: 100%;
+    /* -- Display -- */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ----- Header Items container ----- */
+/* -- Logotype container -- */
+.logotype {
+    margin: 0;
+    padding: 0;
+    /* -- Display -- */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* -- Logo -- */
+.logo {
+    margin: 0px 0px 0px 20px;
+}
+/* -- Navigation container -- */
+.menu {
+    margin: 0;
+    padding: 0;
+    /* -- Display -- */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* -- Navigation List -- */
+.list {
+    margin: 0;
+    padding: 20px;
+    /* -- Display -- */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* -- List Item -- */
+.menu-content:not(:last-child) {
+    margin: 0px 30px 0px 0px;
+}
+
+/* ----- Responsive for Notebooks & Laptops ----- */
+/* ----- Notebooks: 1366x768 ----- */
+@media (max-width: 1366px) {
+    /* -- Header container -- */
+    .header {
+        margin: 0;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 100%;
+        height: 20%;
+        /* -- Font -- */
+        font-size: 25px;
+        font-weight: 600;
+    }
+    /* -- Header's bounding container -- */
+    .header-wrapper {
+        margin: 0 auto;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 75%;
+        height: 100%;
+        /* -- Display -- */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
